@@ -11,6 +11,7 @@ def avg_temp(sum_list):
         for i in range(1, list_length):
             sum_list = sum_list + int(line_list[i])
         final_sum = sum_list/list_length
+        round(final_sum, 2)
     return final_sum
 
 
